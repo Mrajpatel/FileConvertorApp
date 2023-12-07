@@ -40,7 +40,7 @@
 #### Use of RapidXML:
 - Application uses RapidXML for XML parsing because of its efficiency, particularly handaling small/medium size XML documents; for fast and simple parser without external dependencies
 #### Functional Decomposition:
-- Code structure is seperated using function `convertXMLtoHTML` for conversion login, which promotes modularity and code maintainability
+- Code structure is seperated using function `convertXMLtoHTML` for conversion logic, which promotes modularity and code maintainability
 #### Error Handling:
 - Application includes simple error handling for file accessibility
 
