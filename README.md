@@ -1,5 +1,5 @@
 # FileConvertorApp
- Console application which reads XML data and converts it into HTML content for web browser.
+ C++ console application which reads XML data and converts it into HTML content for web browser.
 
 
 ## Install and build instructions
@@ -14,11 +14,17 @@
 4. To build the executable (.exe); Select `Build Solution` from Build menu bar or simple hit `Ctrl + Shift + B`
 
 
-## Run instructions
+## Running application for Visual Studio
 - Click `F5` or `Local Windows Debugger` to run the application or run the executable file from Visual Studio
 - When running it requires XML filename in this case `cd_catalog.xml` (or path of the xml file)
 - Once `output_content.html` file is generated it will open in a browser automatically 
 
+## Running application `.exe` directly
+- Download [FileConverter.exe](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter.exe) and [cd_catalog.xml](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter/cd_catalog.xml) on your local machine
+ - Make sure both files are in same folder (for ease of use)
+- Run the `.exe` file as admin
+- Enter `.xml` filename (if in same folder enter `cd_catalog.xml` or enter the file path)
+- Once `output_content.html` file is generated it will open in a browser automatically 
 
 ## Application Structure/Design  
 
