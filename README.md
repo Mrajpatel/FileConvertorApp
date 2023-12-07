@@ -15,7 +15,7 @@
 
 
 ## Running application for Visual Studio
-- Download/Clone project
+- Download/Clone project on your local machine
 - Open [FileConverter.sln](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter.sln) in Visual Studio
 - Click `F5` or `Local Windows Debugger` to run the application or run the executable file from Visual Studio
 - When running it requires XML filename in this case `cd_catalog.xml` (or path of the xml file)
@@ -41,6 +41,7 @@
 
 #### Use of RapidXML:
 - Application uses RapidXML for XML parsing because of its efficiency, particularly handaling small/medium size XML documents; for fast and simple parser without external dependencies
+- https://sourceforge.net/projects/rapidxml/
 #### Functional Decomposition:
 - Code structure is seperated using function `convertXMLtoHTML` for conversion logic, which promotes modularity and code maintainability
 #### Error Handling:
