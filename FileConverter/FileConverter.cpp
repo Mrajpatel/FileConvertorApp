@@ -2,6 +2,8 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <windows.h>
+
 
 // Using RapidXMl as it does not require external dependecies, lightweight and fast (for small documents)
 #include "rapidxml/rapidxml.hpp"
@@ -89,6 +91,9 @@ int main() {
         std::cerr << "Error: Unable to open HTML file for writing." << std::endl;
         return 1;
     }
+
+    // Using shell to open the file in a web browser
+    ShellExecuteA(NULL, "open", "output_content.html", NULL, NULL, SW_SHOWNORMAL);
 
     return 0;
 }
