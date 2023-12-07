@@ -15,11 +15,13 @@
 
 
 ## Running application for Visual Studio
+- Download/Clone project
+- Open [FileConverter.sln](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter.sln) in Visual Studio
 - Click `F5` or `Local Windows Debugger` to run the application or run the executable file from Visual Studio
 - When running it requires XML filename in this case `cd_catalog.xml` (or path of the xml file)
 - Once `output_content.html` file is generated it will open in a browser automatically 
 
-## Running application `.exe` directly
+## Running application executable `.exe` directly
 - Download [FileConverter.exe](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter.exe) and [cd_catalog.xml](https://github.com/Mrajpatel/FileConvertorApp/blob/main/FileConverter/cd_catalog.xml) on your local machine
  - Make sure both files are in same folder (for ease of use)
 - Run the `.exe` file as admin
